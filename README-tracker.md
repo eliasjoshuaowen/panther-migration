@@ -17,3 +17,5 @@ Cleaned the Excel data:
 * Removed collar_brand column for tracking devices (not relevant for my project aims)
 * Changed timestamp to date and time column
 * Removed study name column (it is the same for the entire dataset)
+
+Set up Pycharm environment. Installed pandas and numpy - this took longer than expected due to several PATH and directory errors which required terminal debugging using powershell. 
