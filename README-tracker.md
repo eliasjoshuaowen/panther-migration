@@ -18,4 +18,4 @@ Cleaned the Excel data:
 * Changed timestamp to date and time column
 * Removed study name column (it is the same for the entire dataset)
 
-Set up Pycharm environment. Installed pandas and numpy - this took longer than expected due to several PATH and directory errors which required terminal debugging using powershell. 
+Set up Pycharm environment. Installed pandas and numpy - needed terminal debugging (powershell/Windows and Pycharm terminal) due to several PATH and directory errors.
