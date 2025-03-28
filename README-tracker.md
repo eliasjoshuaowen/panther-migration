@@ -18,4 +18,4 @@ Cleaned the Excel data:
 * Changed timestamp to date and time column
 * Removed study name column (it is the same for the entire dataset)
 
-Set up Pycharm environment. Installed pandas and numpy - needed terminal debugging (powershell/Windows and Pycharm terminal) due to several PATH and directory errors.
+Set up Pycharm environment. Installed pandas, numpy and scipy - needed terminal debugging (powershell/Windows and Pycharm terminal) due to several PATH and directory errors. I then loaded the CSV data files sourced from Movebank. This required install of csv editor plugin due to Pycharm having difficulty reading the file. 
