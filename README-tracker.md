@@ -18,8 +18,11 @@ Cleaned the Excel data:
 * Changed timestamp to date and time column
 * Removed study name column (it is the same for the entire dataset)
 
-Set up Pycharm environment. Installed pandas, numpy and scipy - needed terminal debugging (powershell/Windows and Pycharm terminal) due to several PATH and directory errors. I then loaded the CSV data files sourced from Movebank. This required install of csv editor plugin due to Pycharm having difficulty reading the file. 
+Set up Pycharm environment. Installed pandas, numpy and scipy - needed terminal debugging (powershell/Windows and Pycharm terminal) due to several PATH and directory errors. I then loaded the CSV data files sourced from Movebank. This required install of CSV editor plugin due to Pycharm having difficulty reading the file. 
 * Started writing the Python code in Pycharm to read the CSV
 * In Python, extracted latitude and longitude data
 * Built KDTree for spatial data
 * Created function find_nearest_town which searches for a point in the tree nearest to a given latitude and longitude, selects matching row in df using df.iloc[idx] and returns nearest town name, region code, and country code 
+* Received name errors so neededto clean columns using str.strip() and assert to test
+* I then used a for try except loop to iterate through the dataframe to process each row and print for any errors. I then exported the results to a CSV file.
+* I cleaned up a few typos in the CSV file. The CSV file was now ready for use.
