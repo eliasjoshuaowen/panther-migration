@@ -8,7 +8,7 @@ Created Species, Countries, Individuals, Tracking_devices and Observations table
 * Tracking_devices - gives information on the tracking device types (all were GPS but were differing types of trackers). Each jaguar has a tracking ID.
 * Observations - gives location, device ID, individual ID, date and time. Allows for extrapolation of geography data and migration patterns tracking. 
 
-I modified the SQL tables: 
+I modified the SQL tables in pgadmin4: 
 * Remove deployment_date column from tracking_devices
 * Add (jaguar) weight to individuals table
 * Removed timestamp from observations table and added separate time and date columns instead - allows for easier parsing of data.
