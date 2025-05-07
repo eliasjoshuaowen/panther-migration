@@ -26,3 +26,5 @@ Set up Pycharm environment. Installed pandas, numpy and scipy - needed terminal 
 * Received name errors so neededto clean columns using str.strip() and assert to test
 * I then used a for try except loop to iterate through the dataframe to process each row and print for any errors. I then exported the results to a CSV file.
 * I cleaned up a few typos in the CSV file. The CSV file was now ready for use.
+
+Created ERD Diagram using PostgreSQL. 
